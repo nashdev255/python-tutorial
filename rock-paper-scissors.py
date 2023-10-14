@@ -11,4 +11,5 @@ def start_battle(player_hand):
 
 print('グー : 0, チョキ : 1, パー : 2')
 player_hand = int(input('出す手を入力 : '))
+print('あなたは' + hands(player_hand) + 'を出しました')
 start_battle(player_hand)
