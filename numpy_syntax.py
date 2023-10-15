@@ -11,8 +11,14 @@ print(a)
 print(b)
 print(np.dot(a, b))
 
-c = []
+c = [0, 2]
 for i in range(10):
   c.append(random.randint(0, 10))
+
+c = np.array(c)
+
+print(c)
+
+c[7 <= c] = 7
 
 print(c)
